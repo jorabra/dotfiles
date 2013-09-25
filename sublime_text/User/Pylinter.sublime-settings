@@ -1,0 +1,5 @@
+{
+	"pylint_path": "/usr/lib/python2.7/dist-packages/pylint/lint.py",
+	"run_on_save": false,
+	"use_icons": true
+}
