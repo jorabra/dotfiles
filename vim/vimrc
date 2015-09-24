@@ -1,7 +1,7 @@
 
 filetype off
 " Pathogen
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 call pathogen#helptags()
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
@@ -35,7 +35,6 @@ set wildmode=list:longest       " File completion in a menu
 set cursorline                  " Indicate what line we are on
 set ttyfast                     " We are on a quick terminal
 set laststatus=2                " Show a statusline all the time
-set relativenumber              " Show numbers in column
 set ignorecase                  " Defaults on search
 set smartcase                   " Smarter search when applying upper case letters
 set nobackup                    " Don't keep a backup file
